@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clima Convento</string>
+    
+    <!-- Menu -->
+    <string name="menu_open">Abrir menú</string>
+    <string name="menu_close">Cerrar menú</string>
+    <string name="favorite_locations">Ubicaciones Favoritas</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="refresh">Actualizar</string>
+    
+    <!-- Locations -->
+    <string name="convento">Convento</string>
+    <string name="campo_alegre">Campo Alegre</string>
+    <string name="santo_domingo">Santo Domingo</string>
+    <string name="rengo">Rengo</string>
+    <string name="rancagua">Rancagua</string>
+    
+    <!-- Weather info -->
+    <string name="temperature">Temperatura</string>
+    <string name="wind_speed">Viento</string>
+    <string name="wind_speed_format">%s m/s</string>
+    <string name="temperature_format">%.1f°C</string>
+    <string name="current_weather">Clima Actual</string>
+    <string name="weekly_forecast">Pronóstico Semanal</string>
+    <string name="today">Hoy</string>
+    
+    <!-- Alerts -->
+    <string name="alert_high_temp">ALERTA: Temperatura alta</string>
+    <string name="alert_low_temp">ALERTA: Temperatura baja</string>
+    <string name="alert_description">La temperatura actual registrada en %s es de: %.1f°Celsius</string>
+    <string name="no_alerts">No hay alertas</string>
+    <string name="mark_as_read">Marcar como leída</string>
+    <string name="delete_alert">Eliminar</string>
+    
+    <!-- Network -->
+    <string name="no_internet_title">Sin Conexión a Internet</string>
+    <string name="no_internet_message">No se puede acceder a la aplicación sin conexión a internet. Por favor, active WiFi o datos móviles.</string>
+    <string name="retry">Reintentar</string>
+    <string name="exit">Salir</string>
+    
+    <!-- Errors -->
+    <string name="error_loading_weather">Error al cargar el clima</string>
+    <string name="error_generic">Ha ocurrido un error</string>
+    
+    <!-- Loading -->
+    <string name="loading">Cargando…</string>
+    
+    <!-- Days of week -->
+    <string name="monday">Lunes</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Miércoles</string>
+    <string name="thursday">Jueves</string>
+    <string name="friday">Viernes</string>
+    <string name="saturday">Sábado</string>
+    <string name="sunday">Domingo</string>
+    
+    <!-- Misc -->
+    <string name="last_updated">Última actualización: %s</string>
+    <string name="tap_location">Toque una ubicación en el mapa</string>
+    <string name="view_details">Ver Detalles</string>
+    
+    <!-- API Keys -->
+    <string name="openweathermap_api_key">26081eb68476c542fc98cb1dd9d7da34</string>
+    
+    <!-- MapBox Access Token -->
+    <string name="mapbox_access_token">pk.eyJ1IjoianVha28zMjM5IiwiYSI6ImNtZ3k0cTUwejBiNnQyc3EybWtxZ2NrN2IifQ.5GDmG3OQpUyn8ACtK935hw</string>
+</resources>

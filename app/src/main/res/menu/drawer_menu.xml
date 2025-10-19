@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications"
+            android:title="@string/notifications" />
+        
+        <item
+            android:id="@+id/nav_refresh"
+            android:icon="@drawable/ic_refresh"
+            android:title="@string/refresh" />
+        
+    </group>
+
+    <item android:title="@string/favorite_locations">
+        <menu>
+            <group android:checkableBehavior="single">
+                
+                <item
+                    android:id="@+id/nav_convento"
+                    android:icon="@drawable/ic_location"
+                    android:title="@string/convento" />
+                
+                <item
+                    android:id="@+id/nav_campo_alegre"
+                    android:icon="@drawable/ic_location"
+                    android:title="@string/campo_alegre" />
+                
+                <item
+                    android:id="@+id/nav_santo_domingo"
+                    android:icon="@drawable/ic_location"
+                    android:title="@string/santo_domingo" />
+                
+                <item
+                    android:id="@+id/nav_rengo"
+                    android:icon="@drawable/ic_location"
+                    android:title="@string/rengo" />
+                
+                <item
+                    android:id="@+id/nav_rancagua"
+                    android:icon="@drawable/ic_location"
+                    android:title="@string/rancagua" />
+                
+            </group>
+        </menu>
+    </item>
+
+</menu>

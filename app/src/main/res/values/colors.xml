@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales -->
+    <color name="primary_blue">#2196F3</color>
+    <color name="primary_blue_dark">#1976D2</color>
+    <color name="primary_blue_light">#BBDEFB</color>
+    
+    <!-- Colores de temperatura -->
+    <color name="temp_very_cold">#2196F3</color>
+    <color name="temp_cold">#64B5F6</color>
+    <color name="temp_cool">#81D4FA</color>
+    <color name="temp_mild">#FFF59D</color>
+    <color name="temp_warm">#FFD54F</color>
+    <color name="temp_hot">#FF9800</color>
+    <color name="temp_very_hot">#F44336</color>
+    
+    <!-- Colores de fondo -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_light_gray">#F5F5F5</color>
+    <color name="background_gray">#EEEEEE</color>
+    
+    <!-- Colores de texto -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+    
+    <!-- Colores de alerta -->
+    <color name="alert_high">#F44336</color>
+    <color name="alert_low">#2196F3</color>
+    
+    <!-- Otros colores -->
+    <color name="divider">#E0E0E0</color>
+    <color name="overlay">#80000000</color>
+    
+    <!-- Colores del sistema -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
