@@ -9,7 +9,8 @@ data class Location(
     companion object {
         // Ubicaciones favoritas en Chile
         val FAVORITE_LOCATIONS = listOf(
-            Location("Convento", "Convento", -33.4489, -70.6693),
+            // La ubicación "Convento" fue actualizada: ahora corresponde aproximadamente a Santo Domingo
+            Location("Convento", "Convento", -33.6528, -71.6139),
             Location("Campo Alegre", "Campo Alegre", -33.871788, -71.6968129),
             Location("Santo Domingo", "Santo Domingo", -33.6528, -71.6139),
             Location("Rengo", "Rengo", -34.4069, -70.8639),

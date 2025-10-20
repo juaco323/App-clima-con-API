@@ -15,8 +15,8 @@ interface WeatherApiService {
     
     /**
      * Obtiene el clima actual para una ubicación específica
-     * @param lat Latitud (ej: -33.4489)
-     * @param lon Longitud (ej: -70.6693)
+    * @param lat Latitud (ej: -33.6528)
+    * @param lon Longitud (ej: -71.6139)
      */
     @GET("weather")
     suspend fun getCurrentWeather(
@@ -29,8 +29,8 @@ interface WeatherApiService {
     
     /**
      * Obtiene el pronóstico del tiempo para una ubicación específica (5 días, cada 3 horas)
-     * @param lat Latitud (ej: -33.4489)
-     * @param lon Longitud (ej: -70.6693)
+    * @param lat Latitud (ej: -33.6528)
+    * @param lon Longitud (ej: -71.6139)
      */
     @GET("forecast")
     suspend fun getForecast(

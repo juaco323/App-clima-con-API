@@ -143,7 +143,7 @@ Location("Campo Alegre", "Campo Alegre", -33.871788, -71.6968129)
 
 | Ubicación | Latitud | Longitud | Estado |
 |-----------|---------|----------|--------|
-| Convento | -33.4489 | -70.6693 | ✅ OK |
+| Convento | -33.6528 | -71.6139 | ✅ OK |
 | **Campo Alegre** | **-33.871788** | **-71.6968129** | ✅ **CORREGIDO** |
 | Santo Domingo | -33.6528 | -71.6139 | ✅ OK |
 | Rengo | -34.4069 | -70.8639 | ✅ OK |
@@ -328,7 +328,7 @@ git push -u origin Version1.0
 - [✅] MapBox token configurado
 
 ### Coordenadas
-- [✅] Convento: -33.4489, -70.6693
+- [✅] Convento: -33.6528, -71.6139
 - [✅] Campo Alegre: -33.871788, -71.6968129 (CORREGIDO)
 - [✅] Santo Domingo: -33.6528, -71.6139
 - [✅] Rengo: -34.4069, -70.8639

@@ -28,7 +28,7 @@
 
 | Ubicación | Latitud | Longitud |
 |-----------|---------|----------|
-| Convento | -33.4489 | -70.6693 |
+| Convento | -33.6528 | -71.6139 |
 | Campo Alegre | -33.871788 | -71.6968129 |
 | Santo Domingo | -33.6528 | -71.6139 |
 | Rengo | -34.4069 | -70.8639 |
@@ -250,7 +250,7 @@ val workRequest = PeriodicWorkRequestBuilder<WeatherMonitorWorker>(
 Editar `Location.kt`:
 ```kotlin
 val FAVORITE_LOCATIONS = listOf(
-    Location("Convento", "Convento", -33.4489, -70.6693),
+  Location("Convento", "Convento", -33.6528, -71.6139),
     Location("NuevaCiudad", "Nueva Ciudad", latitud, longitud),
     // ... más ubicaciones
 )
