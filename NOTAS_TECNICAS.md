@@ -7,7 +7,7 @@ Las coordenadas utilizadas en la aplicación son aproximadas. Para mayor precisi
 ### Ubicaciones Actuales (en Location.kt):
 
 ```kotlin
-Location("Convento", "Convento", -33.6528, -71.6139)
+Location("Convento", "Convento", -33.776986, -71.5966961)
 Location("Campo Alegre", "Campo Alegre", -33.5, -70.7)
 Location("Santo Domingo", "Santo Domingo", -33.6528, -71.6139)
 Location("Rengo", "Rengo", -34.4069, -70.8639)
@@ -20,7 +20,7 @@ Location("Rancagua", "Rancagua", -34.1708, -70.7406)
    - Buscar la ubicación
    - Clic derecho en el punto exacto
    - Seleccionar las coordenadas que aparecen
-    - Formato: `-33.6528, -71.6139`
+    - Formato: `-33.776986, -71.5966961`
 
 2. **Otras herramientas**:
    - https://www.latlong.net/
@@ -104,8 +104,7 @@ val workRequest = PeriodicWorkRequestBuilder<WeatherMonitorWorker>(
 1. Clima actual: `GET /api/current/{lat,lon}`
 2. Pronóstico: `GET /api/forecast/{lat,lon}`
 
-**Formato de ubicación**: `"latitud,longitud"` (ej: "-33.6528,-71.6139")
-**Formato de ubicación**: `"latitud,longitud"` (ej: "-33.6528,-71.6139")
+**Formato de ubicación**: `"latitud,longitud"` (ej: "-33.776986,-71.5966961")
 
 ### Límites de la API:
 
